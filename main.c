@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-    int a, b;
+    int a; b; /*
+    ~~~~~^ Syntax error here */
     fprintf(stderr, "Please input number A: ");
     scanf("%d", &a);
     fprintf(stderr, "Please input number B: ");
